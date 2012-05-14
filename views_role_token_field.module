@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * role_filter_field.module
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function views_role_token_field_views_api() {
+  return array(
+    'api' => '3',
+  );
+}

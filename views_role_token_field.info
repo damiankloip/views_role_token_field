@@ -1,0 +1,8 @@
+name = Views role token field
+description = Creates a new views field to show different fields depending on the users role.
+core = 7.x
+package = Views
+
+dependencies[] = views
+
+files[] = views_role_token_field_handler_field.inc
