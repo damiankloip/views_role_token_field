@@ -37,6 +37,7 @@ class views_role_token_field_handler_field extends views_handler_field {
       $form['role_tokens'][$rid] = array(
         '#title' => check_plain($name),
         '#type' => 'textfield',
+        '#size' => 30,
         '#default_value' => $default,
       );
     }
